@@ -19,7 +19,7 @@ The project uses several state-of-the-art generator models to perform colorizati
 
 5. R2Unet: R2Unet is a modification of the U-Net architecture, featuring residual connections for more stable and faster training.
 
-Custom Model: A custom-designed generator model, tailored to the specific requirements of the colorization task.
+6. Custom Model: A custom-designed generator model, tailored to the specific requirements of the colorization task.
 ## Custom Generator
 <img src='custom_model.png'>
 
