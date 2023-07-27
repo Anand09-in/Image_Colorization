@@ -22,8 +22,10 @@ The project uses several state-of-the-art generator models to perform colorizati
 Custom Model: A custom-designed generator model, tailored to the specific requirements of the colorization task.
 ## Custom Generator
 <img src='custom_model.png'>
-#### Convolution Block
+
+#### Convolution Unit Block
 <img src='convolution.png'>
+
 ## Discriminator Model
 The PatchGAN architecture is employed for the discriminator. PatchGAN is a variant of the traditional GAN discriminator that classifies small image patches instead of the entire image, leading to more detailed and realistic results.
 
