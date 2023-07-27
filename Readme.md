@@ -20,14 +20,18 @@ The project uses several state-of-the-art generator models to perform colorizati
 5. R2Unet: R2Unet is a modification of the U-Net architecture, featuring residual connections for more stable and faster training.
 
 Custom Model: A custom-designed generator model, tailored to the specific requirements of the colorization task.
-
+## Custom Generator
+<img src='custom_model.png'>
+<HR>
+<img src='convolution.png'>
 ## Discriminator Model
 The PatchGAN architecture is employed for the discriminator. PatchGAN is a variant of the traditional GAN discriminator that classifies small image patches instead of the entire image, leading to more detailed and realistic results.
 
 ## Training and Evaluation
 The models are trained on the input-output pairs using an adversarial training approach. The generator aims to produce realistic colored versions of the black and white images, while the discriminator aims to differentiate between real colored images and the generated ones. The training is performed iteratively, and the models are evaluated based on metrics like .
 <img src='results.png'>
-
+## Results
+<img src='colored.png'>
 
 ## Future Directions
 The Image Colorization project could be extended in the following ways:
@@ -38,3 +42,6 @@ The Image Colorization project could be extended in the following ways:
 ## Conclusion
 The Image Colorization project demonstrates the successful application of deep learning techniques for automatic black and white image colorization. By utilizing a combination of popular generator models and the PatchGAN discriminator, the project achieves impressive results in converting black and white scenery images to their corresponding colored versions. The developed models have the potential to be used in various applications, including image restoration, art enhancement, and creative content generation.
 
+## Contributors
+1. Rajeev Ranjan
+2. Kshitij Kumar
