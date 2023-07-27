@@ -1,2 +1,2 @@
 ## Image Colorization
-<img src='results.png'>
+<img src='Image/results.png'>
